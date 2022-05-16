@@ -1,0 +1,6 @@
+<form [formGroup]="sumForm" >
+  <app-first [control] = "first"></app-first>
+  <app-second [control] = "second"></app-second>
+  <button class="btn btn-primary" type="button" (click)="sum()">Calculate Sum</button> 
+</form>
+<div>{{result}}</div>

@@ -7,7 +7,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'internTest';
+  title = 'yyy';
   sumForm: FormGroup;
   result;
   constructor(private formBuilder: FormBuilder){
